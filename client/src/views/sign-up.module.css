@@ -1,0 +1,287 @@
+.container {
+  width: 100%;
+  display: flex;
+  overflow: auto;
+  min-height: 100vh;
+  align-items: center;
+  flex-direction: column;
+}
+.Hero {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  position: relative;
+  align-items: center;
+  flex-direction: column;
+  background-size: cover;
+  background-image: url("/playground_assets/login%20header-1500h.jpg");
+}
+.Bg {
+  flex: 0 0 auto;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  opacity: 0.7;
+  position: absolute;
+  align-items: flex-start;
+  flex-direction: column;
+  background-color: var(--dl-color-gray-black);
+}
+.container01 {
+  top: auto;
+  left: auto;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  display: flex;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.container02 {
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  justify-content: center;
+}
+.text {
+  color: var(--dl-color-gray-white);
+  text-align: center;
+}
+.container03 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.container04 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.Input {
+  color: #000000;
+  text-align: center;
+}
+.Input01 {
+  color: #000000;
+  margin-top: 0px;
+  text-align: center;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.container05 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  margin-top: 0px;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.container06 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.Input02 {
+  text-align: center;
+}
+.Input03 {
+  color: #000000;
+  margin-top: 0px;
+  text-align: center;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.container07 {
+  flex: 0 0 auto;
+  width: auto;
+  height: auto;
+  display: flex;
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.container08 {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+}
+.Input04 {
+  text-align: center;
+}
+.Input05 {
+  color: #000000;
+  margin-top: 0px;
+  text-align: center;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.LoginButton {
+  color: #ffffff;
+  background-color: #000000;
+}
+.navlink {
+  color: var(--dl-color-gray-900);
+  max-width: 600px;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+  text-decoration:  none  underline;
+}
+.text1 {
+  text-decoration: underline;
+}
+.Image {
+  top: auto;
+  left: auto;
+  right: 0px;
+  width: 100%;
+  bottom: -1px;
+  position: absolute;
+  object-fit: cover;
+}
+.image1 {
+  left: auto;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  display: none;
+  position: absolute;
+  object-fit: cover;
+}
+.Container-Mobile {
+  top: auto;
+  left: auto;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  height: 100%;
+  display: none;
+  position: absolute;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+}
+.container09 {
+  display: flex;
+  align-items: center;
+  padding-left: var(--dl-space-space-tripleunit);
+  padding-right: var(--dl-space-space-tripleunit);
+  flex-direction: column;
+  justify-content: center;
+}
+.text2 {
+  color: var(--dl-color-gray-white);
+  text-align: center;
+}
+.container10 {
+  flex: 0 0 auto;
+  width: auto;
+  border: 2px dashed rgba(120, 120, 120, 0.4);
+  height: auto;
+  display: flex;
+  margin-top: var(--dl-space-space-unit);
+  align-items: flex-start;
+  margin-bottom: var(--dl-space-space-unit);
+  justify-content: center;
+}
+.Input06 {
+  text-align: center;
+}
+.Input07 {
+  margin-top: 0px;
+  text-align: center;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.Input08 {
+  text-align: center;
+}
+.Input09 {
+  margin-top: 0px;
+  text-align: center;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.Input10 {
+  text-align: center;
+}
+.Input11 {
+  margin-top: 0px;
+  text-align: center;
+  margin-left: var(--dl-space-space-unit);
+  margin-right: var(--dl-space-space-unit);
+}
+.LoginButton1 {
+  color: #ffffff;
+  background-color: #000000;
+}
+.text3 {
+  color: var(--dl-color-gray-900);
+  max-width: 600px;
+  margin-top: var(--dl-space-space-unit);
+  text-align: center;
+}
+.Image2 {
+  top: auto;
+  left: auto;
+  right: 0px;
+  width: 100%;
+  bottom: -1px;
+  position: absolute;
+  object-fit: cover;
+}
+.image3 {
+  left: auto;
+  right: 0px;
+  width: 100%;
+  bottom: 0px;
+  display: none;
+  position: absolute;
+  object-fit: cover;
+}
+@media(max-width: 479px) {
+  .container01 {
+    display: none;
+  }
+  .container02 {
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+  }
+  .Container-Mobile {
+    display: flex;
+  }
+  .container09 {
+    padding-left: var(--dl-space-space-doubleunit);
+    padding-right: var(--dl-space-space-doubleunit);
+  }
+  .Input06 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .Input07 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .Input08 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .Input09 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .Input10 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+  .Input11 {
+    margin-bottom: var(--dl-space-space-unit);
+  }
+}
